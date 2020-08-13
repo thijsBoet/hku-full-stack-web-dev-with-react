@@ -57,4 +57,6 @@
   – Use camelCase to specify events
   – Pass function as the event handler
 * Example:
-```javascript<Card onClick={() => this.onDishSelect(dish)}>```
+```javascript
+<Card onClick={() => this.onDishSelect(dish)}>
+```
