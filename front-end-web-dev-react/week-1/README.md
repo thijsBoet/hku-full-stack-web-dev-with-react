@@ -42,21 +42,26 @@
 
 ## State
 * Each component can store its own local information in its “state”
-  – Private and fully controlled by the component
-  – Can be passed as props to children
+  * Private and fully controlled by the component
+  * Can be passed as props to children
 * Only class components can have local state
 
 ## Props
 * JSX attributes are passed into a component as a single object
-  – Available in the component as “props”
-  – Can pass in multiple attributes
-  – Cannot modify props within the component
+  * Available in the component as “props”
+  * Can pass in multiple attributes
+  * Cannot modify props within the component
 
 ## Handling Events
 * Handling events is similar to the way you handle events on DOM elements:
-  – Use camelCase to specify events
-  – Pass function as the event handler
+  * Use camelCase to specify events
+  * Pass function as the event handler
 * Example:
 ```javascript
 <Card onClick={() => this.onDishSelect(dish)}>
 ```
+
+## Lifting State Up
+- Sometimes several components may share the same data
+- Changes to data in one component needs to be reflected to another component
+- Best to move the shared state to a common ancestor component
