@@ -24,3 +24,24 @@
 - Component based approach
 - Technology stack agnostic
 - Designed for Speed, Simplicity and Scalability
+
+## JSX
+- Syntactical extension to JS
+- Shorthand notations to represent JS function calls that evaluate to JS objects
+- Avoids artificial separation of rendering logic from other UI logic
+
+## React Components
+- A component returns a set of React elements that should appear on the screen
+- Components enable you to split your UI into independent, reusable pieces
+- Components also accept inputs
+- Different kinds of components can be defined in React
+
+## Component Conventions
+- User-defined component names must always be capitalized(These compile to React.createElement(. . .))
+- Tags starting with lowercase letters are treated as DOM tags (Built-in components)
+
+## State
+- Each component can store its own local information in its “state”
+  – Private and fully controlled by the component
+  – Can be passed as props to children
+- Only class components can have local state
