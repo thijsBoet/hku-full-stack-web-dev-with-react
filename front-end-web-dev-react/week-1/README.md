@@ -37,11 +37,24 @@
 - Different kinds of components can be defined in React
 
 ## Component Conventions
-- User-defined component names must always be capitalized(These compile to React.createElement(. . .))
+- User-defined component names must always be capitalized (These compile to React.createElement(. . .))
 - Tags starting with lowercase letters are treated as DOM tags (Built-in components)
 
 ## State
-- Each component can store its own local information in its “state”
+* Each component can store its own local information in its “state”
   – Private and fully controlled by the component
   – Can be passed as props to children
-- Only class components can have local state
+* Only class components can have local state
+
+## Props
+* JSX attributes are passed into a component as a single object
+  – Available in the component as “props”
+  – Can pass in multiple attributes
+  – Cannot modify props within the component
+
+## Handling Events
+* Handling events is similar to the way you handle events on DOM elements:
+  – Use camelCase to specify events
+  – Pass function as the event handler
+* Example:
+```javascript<Card onClick={() => this.onDishSelect(dish)}>```
