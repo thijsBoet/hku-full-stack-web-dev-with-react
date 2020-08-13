@@ -65,3 +65,40 @@
 - Sometimes several components may share the same data
 - Changes to data in one component needs to be reflected to another component
 - Best to move the shared state to a common ancestor component
+
+## React Component Lifecycle
+* React Component goes through the following
+lifecycle stages:
+  * Mounting
+  * Updating
+  * Unmounting
+* Several lifecycle methods available in each stage
+
+## Mounting Lifecycle Methods
+* Called when an instance of a component is being created
+and inserted into the DOM:
+  * constructor()
+  * getDerivedStateFromProps()
+  * render()
+  * componentDidMount()
+* An earlier method now deprecated called componentWillMount()
+
+## Updating Lifecycle Methods
+* Called when a component is being re-rendered
+  * Can be caused by changes to props or state
+  * getDerivedStateFromProps()
+  * shouldComponentUpdate()
+  * render()
+  * getSnapshotBeforeUpdate()
+  * componentDidUpdate()
+* Two methods that are now deprecated:
+componentWillReceiveProps() and componentWillUpdate()
+
+## Unmounting Lifecycle Methods
+* Is called when the component is being removed
+from the DOM:
+  * componentWillUnmount()
+* Error Handling: called when there is an error
+during rendering, in a lifecycle method or in the
+constructor of any child component
+  * componentDidCatch()
