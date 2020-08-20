@@ -6,26 +6,21 @@ applications for
   * submit information (placing orders, booking a ticket etc.)
 
 ## HTML Forms
-* Form Tag
-  * 
+* Form Tag 
   ```html
   <form> . . . </form>
   ```
 * Form elements:
-  * 
   ```html
   <input>
   ```
 * type: text, password, submit, radio, checkbox, button, color, date, datetime, email, month, number, range, search, tel, time, url, week
-  * 
   ```html
   <textarea>
   ```
-  * 
   ```html
   <button>
   ```
-  * 
   ```html
   <select>
   ```
