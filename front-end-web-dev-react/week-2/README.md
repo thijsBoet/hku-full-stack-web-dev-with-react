@@ -128,6 +128,4 @@ path> matched the URL
   * params: an object that contains key/value pair parsed from
 the URL corresponding to the dynamic segments of the
 path
-  * e.g. if path is specified as /menu/:id, then a path like
-/menu/42 will result in match.params.id being equal to
-“42”## 
+  * e.g. if path is specified as /menu/:id, then a path like /menu/42 will result in match.params.id being equal to “42”## 
