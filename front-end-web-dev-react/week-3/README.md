@@ -7,13 +7,26 @@ applications for
 
 ## HTML Forms
 * Form Tag
-  * <form> . . . </form>
+  * ```html
+  <form> . . . </form>
+  ```
 * Form elements:
-  * <input>
+  * ```html
+  <input>
+  ```
 * type: text, password, submit, radio, checkbox, button, color, date, datetime, email, month, number, range, search, tel, time, url, week
-  * <textarea>
-  * <button>
-  * <select>
+  * 
+  ```html
+  <textarea>
+  ```
+  * 
+  ```html
+  <button>
+  ```
+  * 
+  ```html
+  <select>
+  ```
 * These elements maintain their own state and update it based on user input
 
 ## Controlled Components
